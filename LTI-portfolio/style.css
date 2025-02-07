@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.bio{
+    text-align: center;
+}
+
+.skills{
+    text-align: center;
+}
+.social-links{
+    text-align: center;
+}

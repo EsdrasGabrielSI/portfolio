@@ -72,7 +72,17 @@ h2 {
     padding-bottom: 30px;
 }
 
+    #projects-section{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        
+    }
 
+    .images{
+        display: flex;
+        gap: 40px;
+    }
 
 a:hover{
     color: white;

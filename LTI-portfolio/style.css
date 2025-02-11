@@ -1,27 +1,85 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    font-family: sans-serif;
+    font-family: "Patrick Hand", serif;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(191, 214, 196, 0.9);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 3.125rem;
+    top: 0;
 }
 
 h2 {
-    text-align: center;
-}
-
-img{
     display: block;
-    margin: auto;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
-.bio{
-    text-align: center;
+#about-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+#foto{
+
 }
 
-.skills{
-    text-align: center;
+.right a{
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
 }
-.social-links{
-    text-align: center;
+
+.left a{
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
 }
-.contacts {
-    text-align: center;
-    font-family: sans-serif;
+
+#about-section .social-links {
+    font-size: 2.25rem;
+}
+
+#about-section .social-links a {
+    padding: 0;
+    margin: 0 0.75rem;
+    color: rgba(86, 117, 93, 0.9);
+}
+
+#about-section .social-links a:hover{
+    color: rgb(27, 195, 139);
+}
+
+#about-section {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Linha suave */
+    padding-bottom: 30px;
+}
+
+
+
+a:hover{
+    color: white;
+}
+
+
+
+:root{
+    font-size: 17px;
 }

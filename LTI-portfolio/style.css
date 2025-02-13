@@ -11,14 +11,24 @@ body{
 }
 
 nav{
-    background-color: rgba(191, 214, 196, 0.9);
-    height: 5rem;
+    background-color: rgba(191, 214, 196);
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 0 3.125rem;
     top: 0;
+    height: 4rem;
+    
+}
+h2{
+    margin-top: 5.1rem;
+
+}
+header{
+    position: fixed;
+    height: 5rem;
+    width: 100%;
 }
 
 h2 {

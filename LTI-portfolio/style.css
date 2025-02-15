@@ -21,15 +21,7 @@ nav{
     height: 4rem;
     
 }
-h2{
-    margin-top: 5.1rem;
 
-}
-header{
-    position: fixed;
-    height: 5rem;
-    width: 100%;
-}
 
 h2 {
     display: block;
@@ -41,20 +33,32 @@ h2 {
     font-weight: bold;
     unicode-bidi: isolate;
 }
+ 
+#about-section img{
+    margin-bottom: 2rem;
+}
 
 #about-section h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 2.1rem;
     font-size: 2.75rem;
     font-weight: 700;
 }
-#foto{
 
-}
+#about-section h2::after {
+    content: "";
+    display: block;
+    width: 15%; /* Tamanho da linha */
+    height: 4px; /* Espessura */
+    background-color: rgba(191, 214, 196); /* Cor */
+    margin: 5px auto 0; /* Centraliza e dá espaço */
+  }
 
 .right a{
     color: black;
     text-decoration: none;
     justify-content: space-between;
+    margin: 0 0.30rem;
+
 }
 
 .left a{
@@ -82,14 +86,11 @@ h2 {
     padding-bottom: 30px;
 }
 
-    #projects-section{
+
+    .images{
         display: flex;
         text-align: center;
         justify-content: center;
-        
-    }
-
-    .images{
         display: flex;
         gap: 40px;
     }
@@ -98,8 +99,89 @@ a:hover{
     color: white;
 }
 
+#skills-section h2 {
+    margin-bottom: 2.1rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
 
+#skills-section h2::after {
+    content: "";
+    display: block;
+    width: 6%; /* Tamanho da linha */
+    height: 4px; /* Espessura */
+    background-color: rgba(191, 214, 196); /* Cor */
+    margin: 5px auto 0; /* Centraliza e dá espaço */
+  }
 
-:root{
-    font-size: 17px;
+#skills-section .skills-icons i{
+    font-size: 2.25rem;
+    padding: 0;
+    margin: 0 0.60rem;
+
+}
+
+#skills-section i{
+    color:  rgba(86, 117, 93, 0.9);
+}
+
+#skills-section .skills-icons i:hover{
+    color: rgb(27, 195, 139);
+
+}
+
+#skills-section{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Linha suave */
+    padding-bottom: 30px;
+}
+
+#projects-section h2{
+    margin-bottom: 2.1rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+#projects-section h2::after {
+    content: "";
+    display: block;
+    width: 9%; /* Tamanho da linha */
+    height: 4px; /* Espessura */
+    background-color: rgba(191, 214, 196); /* Cor */
+    margin: 5px auto 0; /* Centraliza e dá espaço */
+  }
+
+  #projects-section{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Linha suave */
+    padding-bottom: 30px;
+}
+
+  #contact-section {
+    margin-bottom: 13px;
+  }
+
+#contact-section h2{
+    margin-bottom: 2.1rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+#contact-section h2::after {
+    content: "";
+    display: block;
+    width: 9%; /* Tamanho da linha */
+    height: 4px; /* Espessura */
+    background-color: rgba(191, 214, 196); /* Cor */
+    margin: 5px auto 0; /* Centraliza e dá espaço */
+  }
+
+.contacts{
+    font-size: 25px;
+}
+
+#contact-section .contacts i{
+    margin-left: 15px;
+}
+
+.foot{
+    background-color: rgba(86, 117, 93, 0.9);;
 }

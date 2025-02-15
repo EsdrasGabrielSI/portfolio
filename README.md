@@ -1,4 +1,2 @@
 # portfólio
- curso LTI 
- curso de front-end
- essa linha eu adicionei diretamente no site.
+ Meu Portfolio pessoal com html e css básicos.

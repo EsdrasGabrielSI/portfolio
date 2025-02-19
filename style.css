@@ -7,6 +7,7 @@
 body{
     font-family: "Patrick Hand", serif;
     text-align: center;
+    background-color: #f5f5f7;
 }
 
 nav{
@@ -46,10 +47,10 @@ h2 {
 #about-section h2::after {
     content: "";
     display: block;
-    width: 15%; 
-    height: 4px; 
-    background-color: rgba(191, 214, 196); 
-    margin: 5px auto 0; 
+    width: 15%; /* Tamanho da linha */
+    height: 4px; /* Espessura */
+    background-color: rgba(191, 214, 196); /* Cor */
+    margin: 5px auto 0; /* Centraliza e dá espaço */
   }
 
 .right a{
@@ -81,7 +82,7 @@ h2 {
 }
 
 #about-section {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Linha suave */
     padding-bottom: 30px;
 }
 
@@ -107,10 +108,10 @@ a:hover{
 #skills-section h2::after {
     content: "";
     display: block;
-    width: 6%; 
-    height: 4px; 
-    background-color: rgba(191, 214, 196); 
-    margin: 5px auto 0; 
+    width: 6%; /* Tamanho da linha */
+    height: 4px; /* Espessura */
+    background-color: rgba(191, 214, 196); /* Cor */
+    margin: 5px auto 0; /* Centraliza e dá espaço */
   }
 
 #skills-section .skills-icons i{
@@ -130,7 +131,7 @@ a:hover{
 }
 
 #skills-section{
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Linha suave */
     padding-bottom: 30px;
 }
 
@@ -143,14 +144,14 @@ a:hover{
 #projects-section h2::after {
     content: "";
     display: block;
-    width: 9%; 
-    height: 4px; 
-    background-color: rgba(191, 214, 196); 
-    margin: 5px auto 0; 
+    width: 9%; /* Tamanho da linha */
+    height: 4px; /* Espessura */
+    background-color: rgba(191, 214, 196); /* Cor */
+    margin: 5px auto 0; /* Centraliza e dá espaço */
   }
 
   #projects-section{
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Linha suave */
     padding-bottom: 30px;
 }
 
@@ -167,10 +168,10 @@ a:hover{
 #contact-section h2::after {
     content: "";
     display: block;
-    width: 9%; 
-    height: 4px; 
-    background-color: rgba(191, 214, 196); 
-    margin: 5px auto 0; 
+    width: 9%; /* Tamanho da linha */
+    height: 4px; /* Espessura */
+    background-color: rgba(191, 214, 196); /* Cor */
+    margin: 5px auto 0; /* Centraliza e dá espaço */
   }
 
 .contacts{

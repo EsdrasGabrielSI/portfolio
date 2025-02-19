@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Patrick Hand", serif;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(191, 214, 196);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 3.125rem;
+    top: 0;
+    height: 4rem;
+    
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+ 
+#about-section img{
+    margin-bottom: 2rem;
+}
+
+#about-section h2 {
+    margin-bottom: 2.1rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+#about-section h2::after {
+    content: "";
+    display: block;
+    width: 15%; 
+    height: 4px; 
+    background-color: rgba(191, 214, 196); 
+    margin: 5px auto 0; 
+  }
+
+.right a{
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 0 0.30rem;
+
+}
+
+.left a{
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+#about-section .social-links {
+    font-size: 2.25rem;
+}
+
+#about-section .social-links a {
+    padding: 0;
+    margin: 0 0.75rem;
+    color: rgba(86, 117, 93, 0.9);
+}
+
+#about-section .social-links a:hover{
+    color: rgb(27, 195, 139);
+}
+
+#about-section {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+    padding-bottom: 30px;
+}
+
+
+    .images{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        gap: 40px;
+    }
+
+a:hover{
+    color: white;
+}
+
+#skills-section h2 {
+    margin-bottom: 2.1rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+#skills-section h2::after {
+    content: "";
+    display: block;
+    width: 6%; 
+    height: 4px; 
+    background-color: rgba(191, 214, 196); 
+    margin: 5px auto 0; 
+  }
+
+#skills-section .skills-icons i{
+    font-size: 2.25rem;
+    padding: 0;
+    margin: 0 0.60rem;
+
+}
+
+#skills-section i{
+    color:  rgba(86, 117, 93, 0.9);
+}
+
+#skills-section .skills-icons i:hover{
+    color: rgb(27, 195, 139);
+
+}
+
+#skills-section{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+    padding-bottom: 30px;
+}
+
+#projects-section h2{
+    margin-bottom: 2.1rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+#projects-section h2::after {
+    content: "";
+    display: block;
+    width: 9%; 
+    height: 4px; 
+    background-color: rgba(191, 214, 196); 
+    margin: 5px auto 0; 
+  }
+
+  #projects-section{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+    padding-bottom: 30px;
+}
+
+  #contact-section {
+    margin-bottom: 13px;
+  }
+
+#contact-section h2{
+    margin-bottom: 2.1rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+#contact-section h2::after {
+    content: "";
+    display: block;
+    width: 9%; 
+    height: 4px; 
+    background-color: rgba(191, 214, 196); 
+    margin: 5px auto 0; 
+  }
+
+.contacts{
+    font-size: 25px;
+}
+
+#contact-section .contacts i{
+    margin-left: 15px;
+}
+
+.foot{
+    background-color: rgba(86, 117, 93, 0.9);;
+}

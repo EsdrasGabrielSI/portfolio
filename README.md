@@ -1,2 +1,2 @@
 # portfólio
- Meu Portfolio pessoal com html e css básicos.
+ My personal portfolio with basic html and css.
